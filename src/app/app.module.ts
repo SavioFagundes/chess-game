@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChessBoard } from './chess-logic/chess-board';
 import { ChessBoardComponent } from './modules/chess-board/chess-board.component';
 
 @NgModule({
@@ -12,8 +13,8 @@ import { ChessBoardComponent } from './modules/chess-board/chess-board.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+  ],  
   providers: [],
   bootstrap: [AppComponent]
 })
